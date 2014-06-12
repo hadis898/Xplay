@@ -1,0 +1,124 @@
+﻿/*顶部通知样式*/
+.b_wp {
+	position: relative;
+}
+.z_top_tips_wrap {
+	height: 26px;
+	width: 100%;
+	background: none repeat scroll 0 0 #ffe9ad;
+	border-top: 1px solid #ffc679;
+	border-bottom: 1px solid #ffcf94;
+	position: relative;
+}
+.z_tips_rel {
+	height: 26px;
+	_height: 25px;
+	width: 970px;
+	margin: -1px auto 0;
+	background-color: #ffe9ad;
+	border-top: 1px solid #ffc679;
+	border-bottom: 1px solid #ffcf94;
+	overflow: hidden;
+}
+.z_tips_p {
+	height: 26px;
+	line-height: 26px;
+	_line-height: 28px;
+	text-align: center;
+	color: #434446;
+}
+.red {
+	color: #f30000!important;
+}
+.z_top_tips_ljxq {
+	line-height: 26px;
+	color: #ec6001;
+	margin-left: 12px;
+}
+.z_top_tips_notips {
+	position: absolute;
+	right: 35px;
+	top: 7px;
+	line-height: 1.2;
+	color: #5f90b0;
+	text-decoration: underline;
+}
+.z_top_tips_close {
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	width: 12px;
+	height: 12px;
+	display: block;
+	text-indent: -999em;
+	background: url(../images/z_close.png) no-repeat;
+}
+
+/*遮罩层*/
+.grayBg { background:#000; filter: alpha(opacity=50); opacity:.5; height:900px; width:100%; overflow:hidden; position:fixed; _position:absolute; left:0; top:0; z-index:997; }
+
+/*登录框*/
+.login{ background:none; position:absolute; top:0; left:50%; margin:125px 0 0 -135px; z-index:998;}
+.login a.close{outline:none;}
+.log_w{width:270px; overflow:hidden;}
+.log_top{ width:270px; height:47px; position:relative; background:url(../images/bg_log_ztop.png) no-repeat; overflow:hidden;}
+.log_top h3{ font:bold 16px/48px \5FAE\8F6F\96C5\9ED1; text-indent:26px; color:#3b8fe0; letter-spacing:2px;}
+.log_top .close{ background:url(../images/sp.png) -349px 0; display:block; width:16px; height:15px; position:absolute; top:15px; right:20px; text-indent:-999em;}
+.log_top .close:hover{ background-position:-331px 0;}
+.log_con{ width:216px; padding:20px 26px 20px 28px; background:none repeat scroll 0 0 #fafafa; z-index:99999; height:auto!important; min-height:140px; height:140px;position:relative;}
+.log_con_fast p{font-size:14px;margin-top:8px;}
+.log_con .fcgray{color:#999;}
+.ins_txt_box{ background:#fff; border:#cdd8e0 solid 1px; box-shadow:inset 0 4px 3px #eaeaea;}
+
+.z_drp_wrap{ position:absolute; top:24px; left:38px; width:154px; height:auto; overflow:hidden; border:1px solid #aaa; background-color:#fff;}
+.z_drp_ul{ width:154px; overflow:hidden;}
+.z_drp_ul li{ height:24px;}
+.z_drp_ul li a{ height:24px; line-height:24px; display:block; padding:0 7px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; width:140px; color:#bfbfbf;}
+.z_drp_ul li a:hover{ background-color:#4bade8; color:#333; text-decoration:none;}
+
+.ins_box1{ clear:both; margin-bottom:10px; *margin-bottom:8px; height:24px; position:relative; zoom:1;}
+.ins_box1 img{vertical-align:middle; margin:0 10px 0 6px;}
+.ins_box1 a{ color:#aaa;}
+.ins_box1 .lab{ position:absolute; left:0; top:0; width:36px; text-align:center; height:24px; line-height:26px; display:block; color:#bfbfbf;}
+.lc_ins1{ width:156px; height:24px; line-height:22px; color:#333; font-family:tahoma; position:absolute; right:19px; top:0; border:none; background-image:url(../images/label_bg.png);background-color:transparent; outline:none;}
+.lc_ins1::-ms-clear{display:none;}
+.ins_box1 .ins_clo{ position:absolute; right:4px; top:7px; width:12px; height:12px; display:block; text-indent:-999em; background:url(../images/z_close.png) no-repeat;}
+.lc_on1{ color:#333;}
+.lc_yzm1{ border:#cdd8e0 solid 1px; color:#BFBFBF; padding:0 0 0 5px; width:71px; height:24px; font:12px/24px tahoma; _margin-top:-1px; vertical-align:middle; outline:none;}
+.z_ins_img{ display:inline-block; vertical-align:top; vertical-align:middle;}
+.lc_cb1{ vertical-align:-3px; _vertical-align:middle;}
+.co_blue1{ text-decoration:underline; line-height:24px; vertical-align:middle;}
+.tb_c li a{ text-decoration:none;}
+.ins_rem1{ color:#aaa; padding-right:20px;}
+.log_btn1, .vipxf_btn,.log_btn2{ background:url(../images/sp1.png?v=03) no-repeat;}
+.log_btn1,.log_btn2{ background-position:-148px 0; display:inline-block; text-align:center; width:80px; height:31px; text-indent:-999em; cursor:pointer; float:left;}
+.log_btn2{background-position:0 -300px;}
+.log_bot{ text-align:center; width:270px; height:47px; padding:12px 0 0; background:url(../images/bg_log_zbot.png) no-repeat;}
+.vipxf_btn{ background-position:0 -45px; display:block; width:216px; height:35px; margin:0 auto; text-indent:-999em; cursor:pointer; position:relative;}
+.log_link{ height:32px; margin:-8px 0 8px; _margin:-6px 0 0; overflow:hidden;}
+.log_link .quick_reg{ color:#aaaaaa; display:inline-block; padding:10px 0 0 6px; float:left;}
+.log_link .quick_reg a{ color:#3c92c9; text-decoration:underline; }
+.log_quick{width:216px;text-align:right;position:absolute;bottom:3px;right:28px;}
+.log_quick a{color:#3C92C9;font-size:12px;}
+.blue{ color:#3b8fe0;}
+.exit{ color:#aaa; padding-left:5px; position:absolute; _margin-top:-2px;}
+.intro{ margin-top:10px; text-indent:2em; line-height:22px;}
+.pay{ color:#aaa; position:absolute; left:66px; bottom:5px;}
+.ins_forg a:hover{ text-decoration:underline;}
+.z_log_tips{ width:214px; height:22px; line-height:22px; background-color:#ffe9ad; color:#e9873f; text-indent:14px; border:1px solid #e9873f; margin:0 1px 8px 0; overflow:hidden;}
+
+/*右键菜单*/
+.r_click{ width:87px; position:absolute; left:42px; top:30px; border:#90c0ed solid 1px; z-index:50; background:#ffffff;}
+.r_click a{ display:block; width:78px; padding-left:9px; height:23px; line-height:23px; text-align:left; color:#444444;}
+.r_click a:hover{ background:#dde6f1;}
+.r_click .disable, .r_click .disable:hover{ background:#eaeaea; color:#909090; cursor:default;}
+
+/*iPad开通面板*/
+.t_box{ position:absolute; top:160px; left:50%; z-index:99999;  -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; box-shadow:2px 2px 2px #444444; width:314px;border:1px solid #C6C6C6; color:#595959; margin-left:-157px; }
+.ipad_t_box{width:640px;height:300px; margin-left:-320px;background:#323232;border-color:#323232;  }
+.ipad_t_box .i_close{width:30px;height:30px;background:url(../images/ipad_close.png) no-repeat;display:inline-block; position:absolute; top:-15px;left:-12px; z-index:99999; text-indent:-999em;}
+.ipad_dl{padding-left:262px; padding-top:20px;width:338px;position:relative;  }
+.ipad_dl dt{color:#fff;font-family:\5FAE\8F6F\96C5\9ED1;font-size:22px;height:58px;line-height:58px;border-bottom:1px solid #1E1E1E   }
+.ipad_dl .pic_dd{position:absolute; left:20px;top:20px}
+.ipad_dl .font_dd{border-top:1px solid #616161;font-family:\5FAE\8F6F\96C5\9ED1;font-size:14px;color:#969696;line-height:18px;padding-top:5px   }
+.ipad_dl .font_dd p{padding:11px 0;font-weight:bold;}

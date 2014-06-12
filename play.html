@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<title>无广告视频在线播放器 - 黑海洋</title>
+<style>
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {margin: 0;padding: 0;}
+.view_header {height: 90px; position: relative;width: 100%; text-align:center;vertical-align:middle;}
+.cont {min-width: 1000px;}
+.b_wp {position: relative;}
+.cont {margin: 0 auto;min-width: 1300px;}
+.b_wp {background: none repeat scroll 0 0 #4D63A7;}
+.yb_bf {background: none repeat scroll 0 0 #E7E7E7;}
+body, button, input, select, textarea {font: 12px/1.5 Helvetica,tahoma,arial,宋体,华文细黑,sans-serif;}
+.view_header .view_back {color: #FFFFFF;cursor: pointer;font: 14px/34px 微软雅黑;left: 190px;position: absolute;top: 8px;}
+a {outline: 0 none;text-decoration: none;}
+.logo{background: url("images/spr_headericon.png") no-repeat scroll -9999em center rgba(0, 0, 0, 0);}
+.logo {background-position: 0 0;height: 37px;left: 19px;position: absolute;top: 2px;width: 154px;}
+.confixed:after {clear: both;content: " ";display: block;height: 0;overflow: hidden;}
+.content_wp {margin: 0;padding: 0;}
+.content_wp, .wp_mid_hd, .banner_wpbox, .mid_bd_banner {position: relative;}
+.yb_bfinner {margin: 0 auto;position: relative;width: 980px;z-index: 50;}
+.yb_bf .yb_bfTitle {color: #333333;font: bold 14px/24px Helvetica,宋体;height: 24px;overflow: hidden;padding: 15px 0 10px;text-overflow: ellipsis;white-space: nowrap;width: 580px;}
+fieldset, img {border: 0 none;}
+.yb_bf .me {color: #666666;position: absolute;right: 0;top: 10px;z-index: 700;}
+.yb_bf .me .m_open {padding-right: 20px;}
+.yb_bf .me .m_txt, .yb_bf .me .m_open {color: #666666;cursor: pointer;display: inline-block;line-height: 22px;}
+a {outline: 0 none;text-decoration: none;}
+.inputSpan .input{width: 500px;height: 30px;font-size: 14px;line-height: 20px;font-family: arial;margin: 5px 0 0 7px;background: #fff;
+outline: 0;-webkit-appearance: none;border: 0;margin-left:2px;margin-top:8px;color: #999999;}
+.buttonSpan{width: 95px;height: 35px;cursor:pointer;text-align:center;display: inline-block; z-index: 0;vertical-align: top; background:url(images/icons_7a2840b1.png);background-position:0px 110px;padding-top:8px;margin-top:5px;}
+.spanIcon{ width:100%; margin: 0px 5px 0px 5px; padding: 0px 5px 0px 5px; cursor:pointer;}
+.spanIcon a:link{ text-decoration:none;}
+.spanIcon a{ color:#FFFFFF}
+.spanIcon a:hover{  color:red}
+.spanIcon a img{ width:16px; height:16px; border:0;  }
+
+</style>
+<!-- 统计 -->
+<script type="text/javascript" src="js/offlights.js"></script>
+</head>
+<body>
+<div class="b_wp cont">
+  <div class="view_header">
+    <!-- 头部 -->
+	<p class="u_log">
+	</br> 
+	
+		<span class="spanIcon" title="首页"><a href="http://blog.upx8.com/app/play">首页</a></span>
+	<span class="spanIcon" title="优酷"><a href="javascript:void(window.open('http://www.youku.com/'))"><img src="images/youku.ico" alt="优酷" /> 优酷</a></span>
+	<span class="spanIcon" title="56视频"><a href="javascript:void(window.open('http://www.56.com/'))"><img src="images/56.ico" alt="56" /> 56</a></span>
+	<span class="spanIcon" title="土豆网"><a href="javascript:void(window.open('http://www.tudou.com/'))"><img src="images/tudou.ico" alt="土豆" /> 土豆</a></span>
+	<span class="spanIcon" title="酷6"><a href="javascript:void(window.open('http://www.ku6.com/'))"><img src="images/ku6.ico" alt="酷6" /> 酷6</a></span>
+	<span class="spanIcon" title="乐视"><a href="javascript:void(window.open('http://www.letv.com/'))"><img src="images/le.ico" alt="乐视" /> 乐视</a></span>       
+	<span class="spanIcon" title="腾讯视频"><a href="javascript:void(window.open('http://v.qq.com/'))"><img src="images/vqq.ico" alt="腾讯视频" /> 腾讯</a></span>
+	<span class="spanIcon" title="爱奇艺"><a href="javascript:void(window.open('http://www.iqiyi.com/'))"><img src="images/iqiy.ico" alt="爱奇艺" /> 爱奇艺</a></span>
+	<span class="spanIcon" title="飞驴视频地址提取"><a href="javascript:void(window.open('http://www.flvxz.com/'))"><img src="images/youku.ico" alt="飞驴" /> 飞驴视频地址提取</a></span>
+	</br>
+	<span class="inputSpan" title="请输入视频链接">
+	   <input id="urlInt" class="input" type="text" onfocus="cleanVal1()" onBlur="setVal1()" value="请在此输入视频链接，然后点击播放按钮">
+	</span>
+    <span class="buttonSpan" onclick="playAgain()">播放</span>
+	
+    <div class="pop_lay" style="display:none;filter:alpha(opacity=80); opacity:0.8; background:#000;position:absolute; left: 0px; top:0; z-index:700;width:100%;height:100%;"></div>
+  </div>
+  <!-- 头部 END -->
+</div>
+<div class="content_wp confixed"> 
+		<div class="yb_bf"><!--播放页  此处高度为 浏览器高度-46px--> 
+			<div class="yb_bfinner" style="width:880px"> 
+
+				<div class="yb_bflash" id="flashbox" from="vodplay" style="width:880px;height:530px;"> 
+					<img  src="images/play_bg.gif" width="100%" height="100%" /> 
+				</div> 
+				
+				<div class="me" id="mobileUsetipArea">
+					<a class="m_open" href="javascript:;"></a> 
+				</div> 
+			</div> 
+		</div> 
+		<div class="footer"><!--footer--> 
+		<p>Copyright © 2000-2014, <a href="http://blog.upx8.com" target="_blank">黑海洋</a>版权所有 著作权保护声明 </p> 
+		<p>严禁下载 存储反动、暴力、色情、违法及侵权内容, 本站有权依法删除并追责
+		</p> 
+	</div>
+</div>
+<script type="text/javascript" src="js/common.js"> </script>
+<script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/player3.js"></script>
+
+</body>
+</html>

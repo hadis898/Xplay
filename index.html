@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html lang="zh-CN"> 
+<head> 
+    <meta charset="utf-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=10"/> 
+    <meta name="description" content="优酷无广告视频在线播放器" /> 
+    <meta name="keywords" content="无广告 视频 在线播放器  视频提取 云点播 云播放 视频 在线 免下载 播放"/> 
+    <title>无广告视频在线播放器 - 黑海洋</title> 
+    <link href="css/oldstyle.css?v=103.01" rel="stylesheet" type="text/css"> 
+    <link href="css/img.css?v=103.01" rel="stylesheet" type="text/css">
+    <link href="css/index.css?v=103.01" rel="stylesheet" type="text/css">
+	<style>
+	    #thems{ width:100%; margin: 10px 0px 5px 0px; padding:10px 0px 5px 0px; font-size:14px;}
+		#thems span{ width:100%; margin: 0px 5px 0px 5px; padding: 0px 5px 0px 5px; cursor:pointer;}
+		#thems span a{ color:#FFFFFF}
+		#thems span a:link{ text-decoration:none;}
+		#thems span a:hover{  color:red}
+		#thems span a img{ width:16px; height:16px; border:0;  }
+	</style>
+</head> 
+<body class="z_body"> 
+<!--顶栏通知--> 
+<div id="common_notice_layer"> 
+</div> 
+<div class="yb_banner"> <!--yb_banner--> 
+    <div class="yb_banBox yb_banbg_index"> 
+        <p class="u_log"> 
+            <a href="http://blog.upx8.com/app/play/">首页</a>
+            <em>|</em> 
+            <a href="http://www.upx8.com" target="_blank">论坛</a>
+            <em>|</em> 
+			<a href="http://blog.upx8.com" target="_blank">博客</a>
+            <em>|</em>
+            <a href="javascript:fav()"  rel="sidebar" >收藏</a>
+            <em>|</em>
+			<a href="javascript:void(window.open('help.html'))" title="使用帮助" >帮助</a>
+        </p>
+        <div class="index_yb_Wp"> 
+            <div class="yb_bansearch"> 
+                <h1 class="yb_bantext png" title="无广告视频在线播放器 - 随时随地云播放！">无广告视频在线播放器 - 随时随地云播放！</h1> 
+				支持 rtmp:// 以及视频直链的调用
+                <div class="yb_banSch confixed">
+                    <div class="yb_bSinput png"> 
+                        <div class="ins"> 
+                            <span name="inputLabel" class="yb_linput" style="display:none;">请在此输入视频链接，然后点击播放按钮</span> 
+                            <input id="url" value="请在此输入视频链接，然后点击播放按钮" type="text" onFocus="cleanVal()" onBlur="setVal()"> 
+                        </div> 
+                    </div>
+                    <div id="thems">
+						<span title="优酷"><a href="javascript:void(window.open('http://www.youku.com/'))"><img src="images/youku.ico" alt="优酷" /> 优酷</a></span>
+						<span title="56视频"><a href="javascript:void(window.open('http://www.56.com/'))"><img src="images/56.ico" alt="56" /> 56</a></span>
+						<span title="土豆网"><a href="javascript:void(window.open('http://www.tudou.com/'))"><img src="images/tudou.ico" alt="土豆" /> 土豆</a></span>
+						<span title="酷6"><a href="javascript:void(window.open('http://www.ku6.com/'))"><img src="images/ku6.ico" alt="酷6" /> 酷6</a></span>
+						<span title="乐视"><a href="javascript:void(window.open('http://www.letv.com/'))"><img src="images/le.ico" alt="乐视" /> 乐视</a></span>       
+						<span title="腾讯视频"><a href="javascript:void(window.open('http://v.qq.com/'))"><img src="images/vqq.ico" alt="腾讯视频" /> 腾讯</a></span>
+						<span title="爱奇艺"><a href="javascript:void(window.open('http://www.iqiyi.com/'))"><img src="images/iqiy.ico" alt="爱奇艺" /> 爱奇艺</a></span>
+					 </div>
+                    <a id="playBtn" class="yb_banSbtn" href="javascript:;" title="播放" onClick="play()">播 放</a> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    <div class="footer"><!--footer--> 
+        <p>Copyright © 2000-2014, 黑海洋 网络版权所有 著作权保护声明 J-2009878</p> 
+        <p>严禁下载 存储反动、暴力、色情、违法及侵权内容, 本站有权依法删除并追责
+        </p> 
+    </div> 
+ 
+</div>
+<script type="text/javascript" src="js/common.js"> </script>
+
+<script src="js/iepngfx.js" language="javascript" type="text/javascript"></script>
+
+</body> 
+</html>

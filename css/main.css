@@ -1,0 +1,13 @@
+/* CSS Document */
+html body{ height: auto  !important; min-height:auto !important;overflow-y:auto; margin:0; padding:0;} 
+/* top */
+#top{height: 52px;position: absolute;top: 0;width: 100%;background-color: black;opacity: .7;filter: alpha(opacity=70);z-index: 1000;position: fixed !important}
+#top_left{ float:left;cursor:pointer;left:10px;position:relative; }
+#top_right{ float:right; cursor:pointer;font: bold 16px "����",Arial,Times; height:52px;}
+#top_right ul{list-style:none; height:52px; margin:0;}
+#top_right ul li{ float:left; padding:0px 5px 0px 5px; height:52px; line-height: 50px; text-align:center;}
+#top_right ul li a{color:#D2D2D2; display: block;   width:72px; height:52px;}
+#top_right ul li a:hover {background:#666;}
+#top_right ul li a:visited {}
+#top_right ul li a:link {text-decoration:none;} 
+#topDiv{height:52px; margin:0; padding:0;} 

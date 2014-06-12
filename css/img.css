@@ -1,0 +1,251 @@
+.b_bgimage {
+  background: url(../images/wp_bg.png?v=103.01) no-repeat -2px -95px;
+}
+.view_mian_shadow {
+  background: url(../images/view_mian_shadow.png?v=103.01) repeat-y;
+}
+.yb_fuText i,
+.v_headerback,
+.v_headeradd,
+.view_header .u_nHover .u_timebox .u_tbtn,
+.view_header .userinfo .u_info .u_arrowtop,
+.yb_bf .yb_bfbtn a,
+.yb_bf .s_top,
+.yb_bf .s_bot,
+.yb_bf .arr_l,
+.mid_fbtn .f_btn,
+.mid_friendList .u_img .c_colse,
+.mid_flyinfo .f_iRight,
+.f_serch .text_in .text_input,
+.f_serch .text_in a,
+.friend_outbox li .outB_btn,
+.xx_tIcon a,
+.f_manageTotal .f_mList i,
+.f_mRequest .f_mRequestBtn .outB_btn,
+.yb_nofound .yb_nobtn,
+.yb_noscIcon,
+.yb_tbd .yb_bdbtn,
+.yb_tclose,
+.pay_logoin .pay_close,
+.pay_btn .pay_btn_m,
+.frend_manage .pay_btn .pay_btn_m,
+.pay_btn a,
+.pay_btnb a .icon,
+.pay_btn a.npay_btn,
+.pay_btn a .icon_right,
+.pop_file_box li i,
+.mid_flyinfoa li .outB_btn,
+.v_headeradd .v_addicon {
+  background: url(../images/spr_btn.png?v=103.01) no-repeat;
+}
+.yb_fuText i.icon_load {
+  background: url(../images/loading.gif?v=103.01) no-repeat 5px 6px;
+}
+.logo,
+.view_top_search_box .ins_wp,
+.view_header .userinfo i,
+.view_header .userinfo .u_img,
+.view_email .view_emailicon,
+.view_email .view_emtips,
+.yb_ico_e,
+.my_space_nav li .my_navRight,
+.my_space_nav li a:hover,
+.my_space_nav li a.yb_nav_on,
+.yb_navicon,
+.mid_hd_btn,
+.mid_hd_btn .om_tna:hover,
+.mid_hd_btn .om_tna,
+.mid_hd_btn .m_btn i,
+.mid_hd_btna,
+.mid_hd_btna .om_tna:hover,
+.mid_hd_btna .om_tna,
+.mid_hd_btna .m_btn i,
+.pay_logoin .pay_closeb,
+.logo,
+.view_top_search_box .ins_wp,
+.view_header .userinfo i,
+.view_header .userinfo .u_img,
+.view_email .view_emailicon,
+.view_email .view_emtips,
+.yb_ico_e,
+.my_space_nav li .my_navRight,
+.mid_hd_btnbg,
+.mid_hd_btnb .m_btn .icon,
+.mid_hd_btnbList i,
+.mid_hd_btncbg {
+  background: url(../images/spr_headericon.png?v=103.01) no-repeat -9999em;
+}
+.feedback_ico,
+.back_last_version {
+  background: url(../images/view_ico_spr.png?v=103.01) no-repeat;
+}
+.view_header .userinfob .u_name .u_shebei,
+.view_header .u_nHover a i,
+.yb_bf .yb_bfbtn .bf_iconb .t,
+.yb_bf .yb_bfbtn .bf_iconb .b,
+.yb_bf .yb_bfbtn .bf_icon,
+.yb_bf .m_pad,
+.yb_bf .m_light,
+.yb_bf .me .on .m_light,
+.yb_bf .me .on .m_pad,
+.driver_ico,
+.acc_link li a .mail,
+.acc_link li a .imail,
+.acc_link li a .t,
+.acc_link li a .b,
+.wp_Cdelate .t,
+.wp_Cdelate .b,
+.yb_vedio .yb_like a.yb_ldel .t,
+.yb_vedio .yb_like a.yb_ldel .b,
+.dth_boxa .v_bt,
+.yb_main_list .yb_like a.yb_ldel .t,
+.yb_main_list .yb_like a.yb_ldel .b,
+.acc_link li .arr_bottom,
+.acc_link li .arr_bottoma,
+.yb_bf .yb_bfbtn .bf_iconb .t,
+.yb_bf .yb_bfbtn .bf_iconb .b,
+.yb_btlist .yb_listb .yb_friends li .yb_fuser a.yb_addList,
+.yb_friends li .yb_fuser a.yb_addList,
+.yb_vedio .p_text i,
+.introa .vedio_icon,
+.yb_vedio .v_bt,
+.yb_vedio .vedio_yj,
+.yb_vedio .vedio_yjOn,
+.yb_vedio .yb_like a,
+.yb_vedio .yb_like a.yb_loveOn,
+.mid_hd_myfriend i,
+.dth_boxa .vedio_icon,
+.yb_main_list .yb_like a,
+.yb_main_list .yb_like a.yb_loveOn,
+.acc_link li .mail_grey .mail i,
+.acc_link li .mail_grey:hover .mail i,
+.acc_link li .mail_grey span,
+.acc_link li :hover.mail_grey span,
+.m_hd_del .wp_Cdelate .t,
+.m_hd_del .wp_Cdelate .b,
+.yb_main_list .yb_like a.yb_ldown .t,
+.yb_main_list .yb_like span,
+.yb_main_list .yb_like a.yb_ldown .b {
+  background: url(../images/spr_ico.png?v=103.01) no-repeat;
+}
+.icvip,
+.iczuan,
+.icgoldvip {
+  background: url(../images/base/ic_vip.png?v=103.01) no-repeat 0 999em;
+}
+.yb_vedio li .ybimg_shadow {
+  background: url(../images/in_bga.png?v=103.01) no-repeat 0 0;
+}
+.yb_listBox .yb_vedio_brose li .ybimg_shadow {
+  background: url(../images/in_bga.png?v=103.01) no-repeat 0 0;
+}
+.yb_listBox .yb_vedio_brose li .intro {
+  background: url(../images/in_bgb.png?v=103.01) no-repeat 0 0;
+}
+.yb_vedio li .info_texta {
+  background: url(../images/in_bg.png?v=103.01) no-repeat;
+}
+.yb_vedio .intro {
+  background: url(../images/in_bgb.png?v=103.01) no-repeat;
+}
+.vedio_scollBox {
+  background: #f9f9f9 url(../images/vedio_scollbg.png?v=103.01) no-repeat 0 0;
+}
+.vedio_scoller {
+  background: url(../images/vedio_scoll.png?v=103.01) no-repeat 0 0;
+}
+.friend_box .f_yd .f_ydtext i {
+  background: url(../images/f_ydtext.png?v=103.01) no-repeat 0 0;
+}
+.friend_box .f_flesh p i {
+  background: url(../images/f_flesh.png?v=103.01) no-repeat 0 0;
+}
+.introb {
+  background: url(../images/in_bg.png?v=103.01) no-repeat;
+}
+.dth_boxa .dth_img {
+  background: url(../images/mr.png?v=103.01);
+}
+.f_manageTitle li a,
+.f_manageTitle li a i,
+.f_manageHd .outB_magabtn {
+  background: url(../images/spr_btn.png?v=103.01) no-repeat;
+}
+.f_maHdempty {
+  background: url(../images/no_img.png?v=103.01) no-repeat 0 0;
+}
+.yb_tips {
+  background: url(../images/tips_bg.png?v=103.01) no-repeat 0 0;
+}
+.yb_arrow {
+  background: url(../images/tips_arrow.png?v=103.01) no-repeat -9999em;
+}
+.yb_banbg {
+  background: #06050d url(../images/ban_a.jpg?v=103.01) no-repeat center 0;
+}
+.yb_banbg .yb_Wp {
+  background: #06050d url(../images/ban_innera.jpg?v=103.01) no-repeat 0 0;
+}
+.yb_banSch .ins,
+.yb_banSch,
+.n_ico,
+.yb_banSch .yb_banSbtn,
+.yb_nav_area li a .n_ico,
+.z_img1,
+.z_img2,
+.z_img3,
+.z_i_arrow,
+.yb_banSch .yb_index_load .yb_intips {
+  background: url(../images/spr_icoa.png?v=103.01) no-repeat -9999em;
+}
+.yb_nav_area li a {
+  background: url(../images/nav_bg.png?v=103.01) repeat-x;
+}
+.yb_nav_area li.yb_navbg {
+  background: url(../images/yb_nav.png?v=103.01) no-repeat 0 0;
+}
+.pay_logoin .pay_hd {
+  background: url(../images/layerTitle.png?v=103.01) repeat-x;
+}
+.pay_textc i {
+  background: url(../images/p_tcicon.png?v=103.01) no-repeat;
+}
+.pay_logoin .pay_wpd .pay_bd ul li .current .icon_on,
+.pay_logoin .pay_bd .pay_bd_down li a,
+.pay_logoin .pay_bd .pay_bd_ruler li a,
+.pay_logoin .pay_bd .pay_bd_down li a .n_ico {
+  background: url(../images/min_spr.png?v=103.01) no-repeat;
+}
+.pay_logoin .pay_wpd .pay_btn .tips .loading {
+  background: url(../images/loading.png?v=103.01) no-repeat;
+}
+.yb_banbg_index {
+  background: #06050d url(../images/ban_a.jpg?v=103.01) no-repeat center 0;
+}
+.index_yb_Wp {
+  background: url(../images/ban_innera.jpg?v=103.01) no-repeat center 0;
+}
+.yb_index li.yb_indexbg {
+  background: url(../images/yb_indexbg.png?v=103.01) no-repeat 0 0;
+}
+.wp_navAside .my_space_nav li .my_nav_tips,
+.wp_navAside .my_space_nav li .my_nav_tips .my_nav_zd,
+.my_nav_tips,
+.my_nav_tips .arrow {
+  background: url(../images/my_nav_tips.png?v=103.01) no-repeat 0 0;
+}
+.z_op_top,
+.z_op_bot,
+.z_op_top .z_op_close,
+.z_op_btn .btn_goon {
+  background: url(../images/spr_tb.png?v=103.01) no-repeat;
+}
+.yb_bantext {
+  background: url(../images/spr_icologo.png?v=103.01) no-repeat;
+}
+.pay_logoin .pay_bd .pay_bd_down .p_bd_list .inputDiv {
+  background: url(../images/min_input.png?v=103.01) no-repeat;
+}
+.dth_boxa .dth_img {
+  background: url(../images/spr_licon.png?v=103.01) no-repeat;
+}
